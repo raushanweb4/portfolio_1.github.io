@@ -104,6 +104,7 @@ em,
 i {
   font-style: italic;
 }
+
 blockquote {
   margin: 0 15px;
 }
@@ -1219,7 +1220,7 @@ hr {
   line-height: 1;
   -webkit-text-stroke: 1px #ffffff;
   /* background: url(../img/back.png); */
-  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo,white,red);
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, white, red);
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
@@ -1587,9 +1588,10 @@ canvas {
   .st-hero.st-style2 p br {
     display: none;
   }
+
   .whatsapp_img {
     width: 50px;
-}
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -1780,6 +1782,7 @@ canvas {
 .st-about-img {
   min-height: 650px;
 }
+
 .st-about-img-wrap {
   padding-right: 30px;
 }
@@ -2921,11 +2924,13 @@ canvas {
   }
 
 }
-@media only screen and (max-width: 1200px) and (min-width: 992px)  {
-  .st-iconbox.st-style1{
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .st-iconbox.st-style1 {
     height: 500px;
   }
 }
+
 /*--------------------------------------------------------------
 28. Comments
 ----------------------------------------------------------------*/
@@ -3386,7 +3391,7 @@ canvas {
 .whatsapp {
   position: fixed;
   bottom: 25px;
-    right: 25px;
+  right: 25px;
   cursor: pointer;
   z-index: 9999;
 }
@@ -3400,24 +3405,25 @@ canvas {
 a.st-site-branding {
   width: 50px;
   height: 50px;
-  display: flex
-;
+  display: flex;
   justify-content: center;
   align-items: center;
-  
+
   color: #070e1b;
 }
 
-a.st-site-branding img{}
-#element_type{
+a.st-site-branding img {}
+
+#element_type {
   text-transform: capitalize;
 }
 
 @media screen and (max-width: 400px) {
   .st-hero.st-style1 .st-hero-text h1 {
-      font-size: 60px;
+    font-size: 60px;
   }
-  body{
+
+  body {
     background-color: red;
   }
 }
